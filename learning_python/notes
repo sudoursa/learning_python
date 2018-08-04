@@ -1,0 +1,60 @@
+""" This is a
+multi line
+string"""
+
+
+# universal newline... python changes it to the proper version on it's own
+# escape sequences can be located at http://docs.pythong.org/3/reference/lexical_analysis.html#strings
+
+# raw strings can be used to avoid using a lot of escape seqences
+
+path = r'C:\Users\User\Documents\Desktop'
+
+print(path)
+
+x = str(182)
+
+print(x)
+y = type(x)
+print(y)
+
+# byte type strings can be used by prefixing them with the letter b
+
+bytes_string = b'data'
+
+print(bytes_string)
+
+# lists are sequences of objects
+
+literal_list = [1, 9, 8]
+# defined with square brackets
+# list, set, dict constructors exist
+
+# for loop take collections and iterate them
+
+
+
+# protocols
+
+# container
+# str, list, range, tuple, bytes, set dict
+
+# sized
+# str, list, range, tuple, set, dict
+
+# iterable
+# str, list range, tuple, bytes, set, dict
+
+# sequence
+# str, list, range, tuple, bytes
+
+# mutable sequence
+# list
+
+# mutable set  /// list of immutable objects
+# set
+
+# mutable mapping
+# dict
+
+classes use CamelCase
